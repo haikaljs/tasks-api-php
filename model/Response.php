@@ -21,7 +21,7 @@ class Response {
         $this->_messages[] = $message;
     }
 
-    public function data($data){
+    public function setData($data){
         $this->_data = $data;
     }
 
